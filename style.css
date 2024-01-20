@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1f2937;
+  color: white;
+}
+
+#blue {
+  /* border: 2px solid blue; */
+}
+
+#first-box {
+  /* border: 2px solid orange; */
+  display: flex;
+  justify-content: space-between;
+}
+
+h3 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+#navigation {
+  /* border: 2px solid red; */
+}
+
+.links {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+  /* border: 1px solid white; */
+  padding: 3px 9px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.container {
+  padding-right: 120px;
+  padding-left: 120px;
+}
+
+.orange {
+  border: 2px solid orange;
+}
+
+.green {
+  border: 2px solid greenyellow;
+}
+
+.white {
+  border: 2px solid white;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+
+.hero-image {
+  height: 200px;
+  width: 400px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+  margin-bottom: 15px;
+}
+
+.hero-paragraph {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #3882f6;
+  border: none;
+  padding: 5px 20px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+}
+
+.hero-container .first {
+  width: 50%;
+}
+
+.hero-container .second {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.gallery h3 {
+  text-align: center;
+  margin-bottom: 60px;
+  color: black;
+}
+
+.gallery-image {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.gallery-image img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid #3882f6;
+}
+
+.gallery-image p {
+  text-align: center;
+  width: 200px;
+}
+
+.gallery-images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gallery {
+  background-color: white;
+  color: black;
+  padding: 60px 0;
+}
+
+.qoute-container {
+  background-color: gainsboro;
+  padding: 60px 0;
+}
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  text-align: right;
+  margin-right: 90px;
+}
+
+.announcement-container {
+  padding: 60px 0;
+  /* color: black; */
+}
+
+.button-text-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882f6;
+  padding: 50px 100px;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.button-text-container .action {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.sign-up-button {
+  border: 2px solid white;
+}
+
+.footer p {
+  text-align: center;
+}
