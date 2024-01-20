@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: #1f2937;
+        color: white;
+      }
+
+      #blue {
+        /* border: 2px solid blue; */
+      }
+
+      #first-box {
+        /* border: 2px solid orange; */
+        display: flex;
+        justify-content: space-between;
+      }
+
+      h3 {
+        font-size: 24px;
+        color: #f9faf8;
+      }
+
+      #navigation {
+        /* border: 2px solid red; */
+      }
+
+      .links {
+        font-size: 18px;
+        color: #e5e7eb;
+        text-decoration: none;
+        /* border: 1px solid white; */
+        padding: 3px 9px;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+
+      .container {
+        padding-right: 120px;
+        padding-left: 120px;
+      }
+
+      .orange {
+        border: 2px solid orange;
+      }
+
+      .green {
+        border: 2px solid greenyellow;
+      }
+
+      .white {
+        border: 2px solid white;
+      }
+
+      .hero-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 60px 0;
+      }
+
+      .hero-image {
+        height: 200px;
+        width: 400px;
+      }
+
+      h1 {
+        font-size: 48px;
+        font-weight: extra-bold;
+        color: #f9faf8;
+        margin-bottom: 15px;
+      }
+
+      .hero-paragraph {
+        font-size: 18px;
+        margin-bottom: 15px;
+      }
+
+      button {
+        background-color: #3882f6;
+        border: none;
+        padding: 5px 20px;
+        font-weight: bold;
+        color: white;
+        border-radius: 5px;
+      }
+
+      .hero-container .first {
+        width: 50%;
+      }
+
+      .hero-container .second {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      .gallery h3 {
+        text-align: center;
+        margin-bottom: 60px;
+        color: black;
+      }
+
+      .gallery-image {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .gallery-image img {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        border: 2px solid #3882f6;
+      }
+
+      .gallery-image p {
+        text-align: center;
+        width: 200px;
+      }
+
+      .gallery-images {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .gallery {
+        background-color: white;
+        color: black;
+        padding: 60px 0;
+      }
+
+      .qoute-container {
+        background-color: gainsboro;
+        padding: 60px 0;
+      }
+      .quote {
+        font-size: 36px;
+        color: #1f2937;
+        font-style: italic;
+        font-weight: lighter;
+      }
+
+      .author {
+        font-weight: bold;
+        font-size: 20px;
+        color: black;
+        text-align: right;
+        margin-right: 90px;
+      }
+
+      .announcement-container {
+        padding: 60px 0;
+        /* color: black; */
+      }
+
+      .button-text-container {
+        display: flex;
+        justify-content: space-between;
+        background-color: #3882f6;
+        padding: 50px 100px;
+        border-radius: 15px;
+        align-items: center;
+      }
+
+      .button-text-container .action {
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .sign-up-button {
+        border: 2px solid white;
+      }
+
+      .footer p {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <!-- header -->
+      <div class="container">
+        <div id="blue">
+          <div id="first-box">
+            <h3>My Header Logo</h3>
+            <div id="navigation">
+              <a class="links" href="#">Home</a>
+              <a class="links" href="#">About</a>
+              <a class="links" href="#">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- hero section -->
+      <div class="container">
+        <div class="hero-container">
+          <div class="first">
+            <h1>This Webstie is awesome</h1>
+            <p class="hero-paragraph">
+              This websites has some subtext that goes here under the main
+              title. It is a smaller font and the color is lower contrast
+            </p>
+            <button>Sign Up</button>
+          </div>
+          <div class="second">
+            <img
+              class="hero-image"
+              src="./alfonso-castro-HaGwCk2AD84-unsplash(2).jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- gallery section -->
+      <div class="container gallery">
+        <h3>Some Random Information</h3>
+        <div class="gallery-images">
+          <div class="gallery-image">
+            <img src="./alfonso-castro-HaGwCk2AD84-unsplash(2).jpg" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+              expedita?
+            </p>
+          </div>
+          <div class="gallery-image">
+            <img src="./alfonso-castro-HaGwCk2AD84-unsplash(2).jpg" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+              expedita?
+            </p>
+          </div>
+          <div class="gallery-image">
+            <img src="./alfonso-castro-HaGwCk2AD84-unsplash(2).jpg" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+              expedita?
+            </p>
+          </div>
+          <div class="gallery-image">
+            <img src="./alfonso-castro-HaGwCk2AD84-unsplash(2).jpg" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+              expedita?
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- qoute section -->
+      <div class="container" style="background-color: gainsboro">
+        <div class="qoute-container">
+          <p class="quote">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est,
+            numquam porro saepe deleniti vitae reprehenderit ut possimus debitis
+            quos error dolore aperiam soluta temporibus molestiae quaerat
+            explicabo quia omnis maxime, inventore nesciunt, laudantium atque?
+            Aut cumque vel eos sunt delectus!
+          </p>
+          <p class="author">-Thor, God of Thunder</p>
+        </div>
+      </div>
+
+      <!-- annoucement section -->
+      <div class="container" style="background-color: white">
+        <div class="announcement-container">
+          <div class="green button-text-container">
+            <div>
+              <p class="action">Call to action! it's time!</p>
+              <p>
+                Sign up for our product by clicking that button righ over there!
+              </p>
+            </div>
+            <div>
+              <button class="sign-up-button">Sign up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div
+        class="container footer"
+        style="padding-bottom: 60px; padding-top: 60px"
+      >
+        <p>Copyright, &copy; The Odin Project 2021</p>
+      </div>
+    </div>
+  </body>
+</html>
